@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: linear-gradient(90deg, #007bff, #6610f2);
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#servicios .fa-3x {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+#portafolio img {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#portafolio img:hover {
+    transform: scale(1.05);
+}
+
+#contacto form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #343a40;
+    padding: 20px 0;
+    color: #fff;
+}
+
+footer a {
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffc107;
+}
